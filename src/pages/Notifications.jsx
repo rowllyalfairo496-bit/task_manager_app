@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Bell, CheckCircle2, Info, AlertTriangle, Trash2, CheckCheck } from 'lucide-react';
 import BottomNav from '../components/BottomNav';

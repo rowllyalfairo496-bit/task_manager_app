@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Book, Settings, Info, LogOut, Camera, ChevronRight, Shield, GraduationCap, CheckCircle2, Clock } from 'lucide-react';
 import BottomNav from '../components/BottomNav';

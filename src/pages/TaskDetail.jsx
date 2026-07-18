@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Clock, AlertCircle, FileText, Edit2, Trash2, Upload, CheckCircle, X, Users, Award } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';

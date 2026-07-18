@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, Calendar, Bell, User, CheckSquare, Settings, Info, LogOut, Shield, GraduationCap } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';

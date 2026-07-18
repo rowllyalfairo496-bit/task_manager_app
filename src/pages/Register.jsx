@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom';
 import { User, Mail, Lock, ArrowLeft, Camera } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, Eye, EyeOff, AlertCircle, Sparkles, Zap } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -168,7 +168,7 @@ const Login = () => {
               </span>
               {t('welcome').slice(1)}
             </h1>
-            <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-muted)' }}>{t('slogan')}</p>
+            <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-main)', opacity: 0.75 }}>{t('slogan')}</p>
           </div>
         </div>
 
